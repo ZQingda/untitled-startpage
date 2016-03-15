@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Qingda Zou" />
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <title>サグメ</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="background"></div>
+
+    <div id="outerBorder">
+      <div id="blur"></div>
+      <nav class="navBar">
+        <ul class="navLinks">
+          <li class="tab" id="1"><p>links1</p></li>
+          <li class="tab" id="2"><p>links2</p></li>
+          <li class="tab" id="3"><p>rss</p></li>
+          <li class="tab" id="4"><p>weather</p></li>
+          <li class="tab" id="5"><p>youtube</p></li>
+        </ul>
+      </nav>
+
+      <form class="searchBar">
+        <div id="labelSearch"><p>search</p></div>
+        <input type="text" id="q" placeholder="search ?~ for help" autocomplete="off" onkeypress="javascript:searchPress(event, this.value)" />
+      </form>
+
+      <main class="content">
+        <div id="linkSet1">
+
+        </div>
+        <div id="linkSet2">2</div>
+        <div id="rss">3</div>
+        <div id="weather">4</div>
+        <div id="youtube">5</div>
+      </main>
+
+    </div>
+
+
+  </div>
+  <script src="js/jquery-1.12.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

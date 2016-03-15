@@ -1,0 +1,144 @@
+
+.background {
+  position: fixed;
+  background-image: url("../images/1455596756769.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  background-position: center;
+}
+#blur {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -550px;
+  margin-top: -315px;
+  height: 630px;;
+  width: 1100px;
+  background-image: url("../images/1455596756769.jpg");
+  background-position: center;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+#outerBorder {
+  position: absolute;
+  height: 630px;
+  width: 1100px;
+  top: 50%;
+  left: 50%;
+  margin-top: -315px;
+  margin-left: -550px;
+}
+.navBar {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 560px;
+  width: 260px;
+  border-radius: 0 0 0 20px;
+}
+.navLinks {
+  display: table;
+  height: 560px;
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  list-style-position: inside;
+}
+
+.tab {
+  display: table-row;
+  width: 100%
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tab > p {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(220,220,220,0.85);
+  background-color: rgba(5,5,5,0.6);
+  text-align: center;
+}
+
+.navLinks > .tab:last-child > p {
+  border-bottom-left-radius: 20px;
+}
+
+.tab > p:hover {
+  background-color: rgba(254,0,0,0);
+}
+
+.content > div {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 560px;
+  width: 840px;
+  background-color: rgba(180,10,10,0.3);
+  border-radius: 0 0 20px 0;
+}
+
+.highlighted {
+  font-size: 34px;
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  color: rgba(230,230,230,0.7);
+}
+
+.content {
+  position: absolute;
+  top: 70px;
+  left: 260px;
+  height: 560px;
+  width: 840px;
+  background-color: rgba(180,180,180,0.2);
+  border-radius: 0 0 20px 0;
+}
+
+.searchBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1100px;
+  height: 70px;
+}
+
+#labelSearch {
+  display: none; /*DON'T NEED THIS NOW, OR THE INNER P*/
+  position: absolute;
+  width: 260px;
+  height: 70px;
+  border-radius: 20px 0 0 0;
+  background-color: rgba(180,180,180,0.6);
+  text-align: center;
+}
+#labelSearch p {
+  font-family: sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin: 0;
+  width: 260px;
+  line-height: 70px;
+}
+
+#q {
+  position: absolute;
+  height: 100%;
+  width: 1100px;
+  padding-left: 24px;
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgba(180,180,180,0.6);
+  border-radius: 20px 20px 0 0;
+  border: 0 none;
+  box-sizing: border-box;
+}
